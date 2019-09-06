@@ -1,0 +1,24 @@
+{
+  "name": "cypressjs",
+  "version": "1.0.0",
+  "description": "Test Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "author": "Satabdi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cypress-cucumber-preprocessor": "^1.16.0",
+    "cypress-xpath": "^1.4.0",
+    "mocha": "^6.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
