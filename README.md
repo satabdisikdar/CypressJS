@@ -1,5 +1,5 @@
 # CypressJS
-UI and API Automation with Cypress
+Swift automated tests
 
 1. node -v and npm -v
 2. npm init
